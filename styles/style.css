@@ -1,0 +1,46 @@
+.section-content {
+    width: 765px;
+    height: 224px;
+    p {
+    font-family: verdana;
+    font-size: 120%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    }
+
+    figure {
+      margin-bottom: 1rem;
+    }
+
+    .prev-next {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: space-between;
+      list-style: none;
+      margin: 1rem 0;
+      padding: 0;
+      text-align: center;
+
+      li {
+        display: flex;
+        margin: 0;
+      }
+
+      .button {
+        margin: 0;
+        max-width: inherit;
+      }
+
+      .button-wrap {
+        color: inherit;
+      }
+    }
+
+    blockquote > :last-child {
+      margin-bottom: 0;
+    }
+  }
